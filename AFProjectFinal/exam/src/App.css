@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  align-items:center;
+  height: 50px;
+  weight:50px
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+h2{
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+.container{
+  cursor:default !important;
+  background:palegreen !important;
+  padding-top: 10px !important;
+  padding-bottom: 40px;
+  padding-left: 500px;
+  padding-right: 535px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin:10px;
+  position: absolute;
+  border: 1px outset black;
+  width:200px;
+  text-align:center;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+}
+.button{
+  background-color: black;
+  color:white;
+  border:none;
+}
+btn:hover {
+    opacity: 0.8;
+}
+#drug{
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+#drug td, #drug th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#drug tr:nth-child(even){background-color: #f2f2f2;}
+#drug tr:hover {background-color: #ddd;}
+#drug th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#list{
+  text-align: center;
+}
+
+/********************TABLE DESIGN***************************/
+#tableDesign {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableDesign td, #tableDesign th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableDesign tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableDesign tr:hover {background-color: #ddd;}
+
+#tableDesign th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+/****************************************/
+
